@@ -3,7 +3,9 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+ul,
+li {
   margin: 0;
 }
 
@@ -208,7 +210,7 @@ p {
 }
 
 .feynman__title {
-  margin:0 auto 70px;
+  margin: 0 auto 70px;
   text-align: center;
   width: 648px;
   font-size: 120px;
@@ -263,7 +265,7 @@ p {
 
 .footer {
   background-color: #000000;
-  padding:60px 0 40px;
+  padding: 60px 0 40px;
   color: #fff;
 }
 
@@ -284,25 +286,21 @@ p {
   background-image: url(../images/logo_place_footer.svg);
 }
 
-.footer__author{
+.footer__author {
   margin: 18px 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
 }
 
-.footer__columns_info{
-
-}
-
-.footer__column-heading{
+.footer__column-heading {
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
 }
 
-.footer__column-links{
+.footer__column-links {
   display: block;
   text-decoration: none;
   color: #fff;
@@ -313,39 +311,4 @@ p {
 
 .footer__social-icon {
   display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
