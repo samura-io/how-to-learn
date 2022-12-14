@@ -185,8 +185,9 @@
 }
 
 .feynman {
+  box-sizing: border-box;
   position: relative;
-  min-width: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-position: bottom left;
@@ -211,15 +212,14 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  padding-bottom: 400px;
 }
 
 .feynman__link {
   position: absolute;
   text-decoration: none;
   color: #2f80ed;
-  right: 0;
-  top: 450px;
+  right: 48px;
+  top: 50%;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -275,7 +275,7 @@
 }
 
 .footer__columns_content_copyright {
-  flex-basis: 771px;
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -293,7 +293,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
