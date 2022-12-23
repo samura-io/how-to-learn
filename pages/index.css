@@ -64,5 +64,5 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/__columns_info/footer__columns_info.css);
-@import url(../blocks/footer/__columns_social/footer__columns_social.css);
+@import url(../blocks/footer/__columns/__columns_info/footer__columns_info.css);
+@import url(../blocks/footer/__columns/__columns_social/footer__columns_social.css);
